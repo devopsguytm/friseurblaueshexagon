@@ -1,0 +1,4 @@
+-Xgcpolicy:optavgpause
+-Xms128m
+-Xmx256m
+-Dhttp.keepAlive=false

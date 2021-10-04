@@ -86,9 +86,9 @@ public class Subscribe implements Serializable{
 
 		try {
 			CloudantClient client = ClientBuilder
-					.url(new URL("https://40f49618-e45a-45d8-9110-1d264e6e2766-bluemix.cloudant.com"))
-					.username("40f49618-e45a-45d8-9110-1d264e6e2766-bluemix")
-					.password("fc5d08660956c8ada867c0aaf7d237eb3ad76d89d3bd87b34fa110a011080c39").build();
+					.url(new URL("https://32137c3a-fdcd-43cc-ace9-bd1379d1485c-bluemix.cloudant.com"))
+					.username("32137c3a-fdcd-43cc-ace9-bd1379d1485c-bluemix")
+					.password("13e5fcc099819e3c44eea5839ea20048d98ab27776fc9b3a936d5af729402e88").build();
 
 			db = client.database("friseur_blaues_hexagon", false);
 
