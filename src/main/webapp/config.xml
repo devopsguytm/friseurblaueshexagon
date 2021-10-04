@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery galleryTitle="Blaues Hexagon"
+	galleryWidth="90%" galleryHeight="90%" showOpenButton="FALSE"
+	showExpandButton="FALSE" showThumbsButton="FALSE">
+
+
+	<image imageURL="images/store/owner_2.jpg" linkURL="images/store/owner_2.jpg"
+		linkTarget="_blank">
+		<title>Wilkommen bei Blaues Hexagon</title>
+
+	</image>
+	
+	<image imageURL="images/store/owner_3.jpg" linkURL="images/store/owner_3.jpg"
+		linkTarget="_blank">
+		<title>Charlies Angels? No Pauls Angels from Blue Hexagon!!!</title>
+
+	</image>
+
+	<image imageURL="images/store/inside_1.jpg" linkURL="images/store/inside_1.jpg"
+		linkTarget="_blank">
+		<title>Wilkommen bei Blaues Hexagon</title>
+
+	</image>
+
+	<image imageURL="images/store/inside_2.jpg" linkURL="images/store/inside_2.jpg"
+		linkTarget="_blank">
+		<title>Wilkommen bei Blaues Hexagon</title>
+
+	</image>
+
+	<image imageURL="images/store/inside_4.jpg" linkURL="images/store/inside_4.jpg"
+		linkTarget="_blank">
+		<title>Wilkommen bei Blaues Hexagon</title>
+
+	</image>
+
+	<image imageURL="images/store/inside_5.jpg" linkURL="images/store/inside_5.jpg"
+		linkTarget="_blank">
+		<title>Wilkommen bei Blaues Hexagon</title>
+
+	</image>
+
+	<image imageURL="images/store/inside_6.jpg" linkURL="images/store/inside_6.jpg"
+		linkTarget="_blank">
+		<title>Wilkommen bei Blaues Hexagon</title>
+
+	</image>
+
+	<image imageURL="images/store/kaffe.jpg" linkURL="images/store/kaffe.jpg"
+		linkTarget="_blank">
+		<title>Lass dich in unseren Friseursalon beraten und genieße relaxt
+			eine Kaffee-Spezialität, während wir uns um dein perfektes Aussehen
+			kümmern!
+		</title>
+
+	</image>
+
+
+	<image imageURL="images/store/hair_color_1.jpg" linkURL="images/store/hair_color_1.jpg"
+		linkTarget="_blank">
+		<title>Wilkommen bei Blaues Hexagon</title>
+
+	</image>
+
+	<image imageURL="images/store/hair_color_2.jpg" linkURL="images/store/hair_color_2.jpg"
+		linkTarget="_blank">
+		<title>Wilkommen bei Blaues Hexagon</title>
+
+	</image>
+
+
+	<image imageURL="images/store/hair_4.jpg" linkURL="images/store/hair_4.jpg"
+		linkTarget="_blank">
+		<title>Wilkommen bei Blaues Hexagon</title>
+
+	</image>
+	<image imageURL="images/store/hair_5.jpg" linkURL="images/store/hair_5.jpg"
+		linkTarget="_blank">
+		<title>Wilkommen bei Blaues Hexagon</title>
+
+	</image>
+
+	<image imageURL="images/store/hair_2.jpg" linkURL="images/store/hair_2.jpg"
+		linkTarget="_blank">
+		<title>Wilkommen bei Blaues Hexagon</title>
+
+	</image>
+
+	<image imageURL="images/store/hair_3.jpg" linkURL="images/store/hair_3.jpg"
+		linkTarget="_blank">
+		<title>Wilkommen bei Blaues Hexagon</title>
+
+	</image>
+
+
+
+</juiceboxgallery>

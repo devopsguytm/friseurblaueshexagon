@@ -1,0 +1,23 @@
+<server description="Liberty">
+
+    <featureManager>
+        <feature>javaee-7.0</feature>
+        <feature>localConnector-1.0</feature>
+    </featureManager>
+
+    <applicationMonitor updateTrigger="mbean"/>
+
+    <webApplication id="friseurblaueshexagon.at" name="friseurblaueshexagon.at" contextRoot="friseurblaueshexagon.at"/>
+
+                <!-- classloader -->
+    <library description="config" id="config" name="config">
+        <folder dir="${shared.config.dir}/lib/global"/>
+    </library>
+
+        <!-- security -->
+    <quickStartSecurity userPassword="admin" userName="admin"></quickStartSecurity>
+
+   
+    <httpEndpoint enabled="true" host="*" httpPort="80" httpsPort="443" id="defaultHttpEndpoint"/>
+
+</server>

@@ -1,0 +1,16 @@
+{
+  "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.ng.bluemix.net",
+      "Org": "vlad.sancira@ro.ibm.com",
+      "Space": "prod"
+    },
+    "Name": "friseurblaueshexagon.at",
+    "Instrumentation": {
+      "domain": "friseurblaueshexagon.at"
+    }
+  },
+  "Path": "manifest.yml",
+  "Type": "Cloud Foundry"
+}

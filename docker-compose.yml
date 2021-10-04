@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+
+
+ liberty-service:
+  container_name: liberty-service 
+  image: friseurblaueshexagon.at:1.0
+  volumes:
+   - ./logs:/logs
+#   - ./target/friseurblaueshexagon.at.war:/config/dropins/friseurblaueshexagon.at.war
+#   - ./server.xml:/config/server.xml
+  ports:
+   - "80:80"
+  networks:
+   - sample-private_network
+
+
+
+networks:
+  sample-private_network:
+     driver: bridge
