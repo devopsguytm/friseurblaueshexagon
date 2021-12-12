@@ -7,6 +7,7 @@ import javax.faces.bean.ManagedBean;
 import java.io.*;
 import org.json.*;
 import com.cloudant.client.api.*;
+import subscribers.Constants;
 
 @ManagedBean(name = "Subscribe")
 
@@ -86,11 +87,11 @@ public class Subscribe implements Serializable{
 
 		try {
 			CloudantClient client = ClientBuilder
-					.url(new URL("https://32137c3a-fdcd-43cc-ace9-bd1379d1485c-bluemix.cloudant.com"))
-					.username("32137c3a-fdcd-43cc-ace9-bd1379d1485c-bluemix")
-					.password("13e5fcc099819e3c44eea5839ea20048d98ab27776fc9b3a936d5af729402e88").build();
+					.url(new URL(Constants.cloudantURL))
+					.iamApiKey(Constants.cloudantIAMApiKey)
+					.build();
 
-			db = client.database("friseur_blaues_hexagon", false);
+			db = client.database(Constants.cloudantDB, false);
 
 			return true;
 
